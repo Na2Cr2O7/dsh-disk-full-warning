@@ -112,9 +112,9 @@ window.__ModuleLoader__.load({
             h('div', { className: 'dshdfw-icon', 'aria-hidden': 'true' }, '!'),
             h('div', { className: 'dshdfw-headText' },
               h('p', { className: 'dshdfw-eyebrow' }, 'Disk full · 磁盘空间不足'),
-              h('h2', { className: 'dshdfw-title', id: 'dshdfw-title' }, '任务已暂停，请先清理磁盘空间'),
+              h('h2', { className: 'dshdfw-title', id: 'dshdfw-title' }, '任务已停止，请先清理磁盘空间'),
               h('p', { className: 'dshdfw-sub' },
-                'AI 检测到本次任务失败的原因是磁盘已满，已立即停止当前对话，避免继续写入造成更多失败。下面是建议清理的位置。'),
+                'AI 检测到本次任务失败的原因是磁盘已满，已立即停止当前对话。下面是建议清理的位置。'),
             ),
             h('button', {
               type: 'button', className: 'dshdfw-x', 'aria-label': '关闭提醒', onClick: onClose,
