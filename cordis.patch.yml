@@ -1,0 +1,3 @@
+- insert:
+    - id: disk-full-warning
+      name: '@local/dsh-disk-full-warning'

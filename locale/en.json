@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Disk full warning",
+    "description": "Stops the turn and opens a full-screen cleanup dialog when a task fails because the disk is full; the model names the location to clean."
+  }
+}

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Disk full warning">
+  <defs>
+    <linearGradient id="d" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#4a5568"/>
+      <stop offset="1" stop-color="#2d3748"/>
+    </linearGradient>
+  </defs>
+  <rect x="5" y="12" width="54" height="40" rx="7" fill="url(#d)"/>
+  <rect x="5" y="12" width="54" height="15" rx="7" fill="#5a6678"/>
+  <circle cx="47" cy="19.5" r="2.6" fill="#a9b6c7"/>
+  <circle cx="39" cy="19.5" r="2.6" fill="#a9b6c7"/>
+  <rect x="12" y="33" width="40" height="12" rx="3" fill="#e8edf4"/>
+  <rect x="12" y="33" width="30" height="12" rx="3" fill="#e0533d"/>
+  <path d="M32 27v20" stroke="#e8edf4" stroke-width="1.4" opacity=".35"/>
+  <circle cx="50" cy="44" r="12" fill="#e0533d" stroke="#ffffff" stroke-width="2.5"/>
+  <rect x="48.4" y="37.5" width="3.2" height="9" rx="1.6" fill="#ffffff"/>
+  <circle cx="50" cy="49.5" r="1.9" fill="#ffffff"/>
+</svg>
